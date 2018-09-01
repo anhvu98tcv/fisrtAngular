@@ -13,11 +13,7 @@ import {ServerComponent} from './servers/server/server.component';
 import {ServersService} from './servers/servers.service';
 import {PageNotFoundComponent} from './error/page-not-found/page-not-found.component';
 import {MyRoutingModule} from './my-routing/my-routing.module';
-import {AuthGuardService} from './auth-guard.service';
-import {AuthService} from './auth.service';
-import {CanDeactiveGuardService} from './servers/edit-server/can-deactive-guard.service';
-import { ErrorOageComponent } from './error-oage/error-oage.component';
-import { ErrorPageComponent } from './error/error-page/error-page.component';
+import {ErrorPageComponent} from './error/error-page/error-page.component';
 
 
 @NgModule({
@@ -30,7 +26,6 @@ import { ErrorPageComponent } from './error/error-page/error-page.component';
     EditServerComponent,
     ServerComponent,
     PageNotFoundComponent,
-    ErrorOageComponent,
     ErrorPageComponent
   ],
   imports: [
