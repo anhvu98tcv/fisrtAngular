@@ -54,7 +54,7 @@ export class EditServerComponent implements OnInit, MyCanComponentDeactive {
   }
 
   myNewFunction() {
-
+    // new branch
   }
 
 }
