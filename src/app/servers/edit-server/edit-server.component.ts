@@ -54,7 +54,8 @@ export class EditServerComponent implements OnInit, MyCanComponentDeactive {
   }
 
   myNewFunction() {
-    //abc
+    // add new comment
+    // add more comment
   }
 
 }
